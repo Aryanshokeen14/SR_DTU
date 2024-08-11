@@ -7,7 +7,7 @@ const Background = () => {
   }, [])
     return (
       <>
-        <div className="bg-[url('public/assets/image2.jpg')] bg-cover bg-center  h-screen flex flex-col justify-center items-center pt-20">
+        <div className="bg-[url('/assets/image2.jpg')] bg-cover bg-center  h-screen flex flex-col justify-center items-center pt-20">
           <div id ="Homepage" className="flex flex-col gap-9 justify-center items-center opacity-0">
             <h1 className="text-white text-6xl font-bold ml-9">
               Join the Bot Revolution
