@@ -7,7 +7,7 @@ const Background = () => {
   }, [])
     return (
       <>
-        <div className="bg-[url('src/assets/image2.jpg')] bg-cover bg-center  h-screen flex flex-col justify-center items-center pt-20">
+        <div className="bg-[url('public/assets/image2.jpg')] bg-cover bg-center  h-screen flex flex-col justify-center items-center pt-20">
           <div id ="Homepage" className="flex flex-col gap-9 justify-center items-center opacity-0">
             <h1 className="text-white text-6xl font-bold ml-9">
               Join the Bot Revolution
@@ -24,7 +24,7 @@ const Background = () => {
           <div class="sketchfab-embed-wrapper h-full w-[50%]"> <iframe className="w-full h-full" title="SF Light Drone-ZR7" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/bdced13af1994ea8a0d0037ae6dd5d94/embed"> </iframe></div>
           </div>
         </div>
-        <div className="bg-[url('src/assets/video1.mp4')] bg-cover bg-center h-screen flex justify-center items-center flex-col gap-4">
+        <div className="bg-[url('public/assets/video1.mp4')] bg-cover bg-center h-screen flex justify-center items-center flex-col gap-4">
           <h1 className="text-white text-6xl font-bold   underline">
             Past Events
           </h1>
@@ -43,7 +43,7 @@ const Background = () => {
           <br />
           <div className="cards flex gap-24 ">
             <div className="h-[500px] w-[300px] border border-black rounded-xl bg-black text-white">
-              <img src="src/assets/image6.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
+              <img src="public/assets/image6.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
               <div className="flex flex-col justify-center items-center h-1/2 w-[300px] p-7 gap-6">
                 <p>The future of cognitive robots: household gadgets or human substitutes?</p>
                 <button className="border border-white rounded-full p-2 ">Read More</button>
@@ -51,7 +51,7 @@ const Background = () => {
             </div>
 
             <div className="h-[500px] w-[300px] border border-black rounded-xl bg-black text-white">
-              <img src="src/assets/image7.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
+              <img src="public/assets/image7.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
               <div className="flex flex-col justify-center items-center h-1/2 w-[300px] p-7 gap-6">
                 <p>TanzKompanie Esslingen & Cognitive Robot MAiRA Showcase New Dance Interaction</p>
                 <button className="border border-white rounded-full p-2 hover:bg-slate-500 hover:font-bold">Read More</button>
@@ -59,7 +59,7 @@ const Background = () => {
             </div>
 
             <div className="h-[500px] w-[300px] border border-black rounded-xl bg-black text-white">
-              <img src="src/assets/image8.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
+              <img src="public/assets/image8.jpeg" alt="image6" className="h-[250px] w-[300px] rounded-t-xl"/>
               <div className="flex flex-col justify-center items-center h-1/2 w-[300px] p-7 gap-6">
                 <p>Is Germany the innovation leader Europe is looking for?</p>
                 <button className="border border-white rounded-full p-2 ">Read More</button>
